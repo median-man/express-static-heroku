@@ -1,0 +1,15 @@
+{
+  "name": "express-static-heroku",
+  "version": "1.0.0",
+  "description": "A demo of getting an Express app deployed as quickly as possible to follow the mantra: \"Deploy Early. Deploy Often.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "John Desrosiers <john.desro@gmail.com> (https://github.com/median-man)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
