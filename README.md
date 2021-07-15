@@ -11,3 +11,25 @@ mantra: "Deploy Early. Deploy Often."
 4. Deploy!
 5. Configure middleware to easily route to static files.
 6. Re-deploy.
+
+## Useful Express JS Functions
+
+### `res.sendFile()`
+
+Use to send a file back as the response to a request.
+
+### `.use()`
+
+Takes a function and runs that function every time a request is received. The callback is passed 3 arguments: `response, request, and next`.
+
+### `app.use(express.urlencoded({ extended: true }));`
+
+Allows the app to parse form data in a request and access it with `req.body`;
+
+### `app.use(express.json());`
+
+Allows the app to parse json data in a request and access it with `req.body`.
+
+### `res.json()`
+
+Send json data in the response going back to the client.
